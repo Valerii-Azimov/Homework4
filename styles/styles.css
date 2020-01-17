@@ -1,4 +1,4 @@
-.main-menu a{
+.main_menu a{
     font-family: "Myriad Pro", sans-serif;
     text-transform: uppercase;
     color: #000000;
@@ -8,7 +8,7 @@
     font-weight: bold;
       
 }
-.main-menu-link{
+.main_menu_item{
     margin-left: 30px;
 }
 a:hover{
@@ -19,31 +19,31 @@ a:hover{
     content: "";
     clear: both;
 }  
-.article-list-item a{
+.article_list_item a{
     text-decoration: none;
 }
-.cart:hover .article-list-item-price{
+.cart:hover .article_list_item_price{
     background-color: rgb(127, 217,199);
 }
-.cart:hover .article-list-item-name{
+.cart:hover .article_list_item_name{
     background-color: rgb(26, 188, 156);
 }
-.main-menu li{
+.main_menu li{
     float: left;
 }
-.main-menu{
+.main_menu{
     padding: 0px;
     margin: 0px;
     float: right;
     padding: 10px 0px;
     /* outline: 2px solid red; */
 }
-.site-logo{
+.site_logo{
     float: left;
     /* outline: 2px solid red; */
     margin: 0px;
 }
-.main-nav{
+.main_nav{
     padding: 20px 0px;
     /* outline: 2px solid rgb(10, 0, 0); */
 }
@@ -52,7 +52,7 @@ a:hover{
     margin: 0px auto;
     /* outline: 2px solid red; */
 }
-.article-list-item{
+.article_list_item{
     float: left;
     width: 255px;
     height: 323px;
@@ -61,26 +61,26 @@ a:hover{
     background-color: rgb(233, 240, 253);
     cursor: pointer;
 }
-.article-list-item:not(:nth-child(4n)){
+.article_list_item:not(:nth-child(4n)){
     margin-right: 30px;
 }
 
-.article-list-item img{
+.article_list_item img{
     max-width: 100%;
     display: block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 
 }
-.cart-img {
+.cart_img {
     width: 255px;
     height: 283px;
     overflow: hidden;
     text-align: center;
 }
-.article-list{
+.article_list{
     padding-left: 0px;
 }
-.article-list-item-name{
+.article_list_item_name{
     background-color: rgb(50, 50, 50);
     width: 200px;
     height: 41px;
@@ -96,7 +96,7 @@ a:hover{
     /* outline: 2px solid blue; */
 
 }
-.article-list-item-price{
+.article_list_item_price{
     background-color: rgb(140, 140, 140);
     width: 55px;
     height: 41px;
@@ -110,7 +110,7 @@ a:hover{
     font-weight: bold;
     text-align: center;
 }
-.news-card{
+.news_card{
     float: left;
     width: 350px;
     height: 500px;
@@ -119,13 +119,13 @@ a:hover{
     margin-left: 0px;
     
 }
-.news-card:not(:nth-child(3n)){
+.news_card:not(:nth-child(3n)){
     margin-right: 30px;
 }
-.news-list{
+.news_list{
     padding: 0px;
 }
-.featured-products {
+.featured_products {
     font-family: "Myriad Pro", sans-serif;
     text-transform: uppercase;
     color: rgb(81, 81, 81);
@@ -141,9 +141,9 @@ h2::after{
     background-color: rgb(78, 198, 171);
     margin: 0 auto;
     margin-top: 32px;
-        content: "";
+    content: "";
     }
-.latest-news{
+.latest_news{
     font-family: "Myriad Pro", sans-serif;
     text-transform: uppercase;
     color: rgb(81, 81, 81);
@@ -169,7 +169,7 @@ h3::after{
     margin-top: 15px;
     content: "";
 }
-.news-text{
+.news_text{
     font-family: "Myriad Pro", sans-serif;
     color: rgb(85, 82, 82);
     font-size: 14px;
@@ -177,7 +177,7 @@ h3::after{
     font-weight: normal;
     text-align: left;
 }
-.read-more{
+.read_more{
     height: 52px;
     width: 160px;
     background-color: rgb(78, 198, 171);
@@ -185,4 +185,7 @@ h3::after{
     color: rgb(196, 236, 227);
     outline: none;
     border: none;
+}
+h1{
+    display: none;
 }
