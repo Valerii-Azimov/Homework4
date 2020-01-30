@@ -52,6 +52,8 @@ a:hover{
     margin: 0px auto;
     /* outline: 2px solid red; */
 }
+
+/* ==================cart====================== */
 .article_list_item{
     float: left;
     width: 255px;
@@ -78,7 +80,7 @@ a:hover{
     text-align: center;
 }
 .article_list{
-    padding-left: 0px;
+    padding: 0px;
 }
 .article_list_item_name{
     background-color: rgb(50, 50, 50);
